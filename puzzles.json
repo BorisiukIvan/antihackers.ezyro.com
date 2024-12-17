@@ -1,0 +1,9 @@
+[
+    {"id" : "1", "position" : "1rk5/4K3/7Q/8/8/8/8/8 w - - 0 1", "goal" : "мат в 1 ход", "solution" : ["h6c6"]},
+    {"id" : "2", "position" : "k5r1/8/8/p7/P1p5/2P3r1/1R4n1/1R5K b - - 0 1", "goal" : "мат в 4 хода", "solution" : ["g3h3", "h1g1", "g2e3", "g1f2", "g8g2", "f2e1", "h3h1"]},
+    {"id" : "3", "position" : "rn1qk2r/pppbpp1p/6p1/8/4N3/2PP4/Pb1BQPPP/R3KBNR w KQkq - 0 1", "goal" : "мат в 2 хода", "solution" : ["e4f6", "e8f8", "d2h6"]},
+    {"id" : "4", "position" : "r4rk1/ppp2ppn/3p3B/2bNp3/2B1P3/3P1n2/PPP2q1P/R5RK w - - 0 1", "goal" : "мат в 2 хода", "solution" : ["d5e7", "g8h8", "h6g7"]},
+    {"id" : "5", "position" : "r4rk1/ppp2ppn/3p3B/2bNp3/2B1P1N1/3P1n2/PPP2q1P/R5RK w - - 0 1", "goal" : "мат в 3 хода", "solution" : ["g4f6", "h7f6", "d5f6", "g8h8", "h6g7"]},
+    {"id" : "6", "position" : "4qkrn/3ppppp/1N6/8/5N2/8/8/Q1K2R2 w - - 0 1", "goal" : "мат в 3 хода", "solution" : ["b6d7", "e8d7", "a1a8", "d7e8", "f4e6"]},
+    {"id" : "7", "position" : "2kr4/pqp5/4pB2/2b2p2/2P1pPP1/P6r/1P2Q2P/1R3K1R b - - 2 22", "goal" : "мат в 9 ходов", "solution" : ["e4e3", "h1g1", "d8d2", "b1d1", "h3f3", "f1e1", "d2e2", "e1e2", "f3f2", "e2e1", "b7f3", "d1d8", "c8b7", "d8b8", "b7b8", "f6e5", "f3e2"]}
+]

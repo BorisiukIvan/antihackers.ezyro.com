@@ -1,0 +1,1 @@
+<?php include "header.php"; setcookie('account', $_COOKIE['account'], time() - 10 * 365 * 31 * 24 * 60, "/", $WEBSITE, 0); header('Location: /'); ?>
