@@ -1,0 +1,3 @@
+var n = document.createElement("div");
+n.innerHTML = "<form id='send_msg' method='POST'><textarea name='text' style='width: 100%; height: 40px'></textarea><br><br><center><button type='submit' style='width: 200px; height: 50px; '>Отправить сообщение</button></center></form>";
+setTimeout(function() { document.body.append(n); document.getElementById('send_msg').setAttribute('action', location); }, 200);
