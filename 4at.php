@@ -1,8 +1,6 @@
 <?php include 'header.php' ?>
 <?php
    if ($_SERVER['REQUEST_METHOD'] == "POST") {
-       if (explode("-", $account)[0] == "ShishVoronChess") exit;
-       if ($account == "Guest46-253-186-4") $account = '<IP hidden>';
        if (file_exists("@/$account/index.php")) {
         file_put_contents('4atcache', '<b><a href="/@/'.$account.'/">' . $account . '</a>:</b> ' . htmlspecialchars($_POST['body']) . "<br><br>\n", FILE_APPEND);
        } else file_put_contents('4atcache', '<b>'.$account . ':</b> ' . htmlspecialchars($_POST['body']) . "<br><br>\n", FILE_APPEND);
